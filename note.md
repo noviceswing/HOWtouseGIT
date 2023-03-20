@@ -106,5 +106,7 @@ error: src refspec main does not match any
 Git 中创建附注标签十分简单。 最简单的方式是当你在运行 tag 命令时指定 -a 选项
 ``` git tag -a v1.4 -m "my version 1.4"```
 
+``` git push <remote>  tagname ```
 **删除标签**
 ```git push origin --delete <tagname>```
+
