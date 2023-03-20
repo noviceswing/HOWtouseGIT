@@ -35,6 +35,7 @@
 
 
 ```git merge --allow-unrelated-histories pb/main```:将远程仓库的提交与自身的提交进行合并
+如果仓库本身没有可以合并的文件，就可以不执行
 
 
 ```git push <remote> <branch>```:推送到远程仓库，此时就不会出错了。
