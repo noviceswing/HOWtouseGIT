@@ -92,6 +92,7 @@
 
 **从远程仓库中抓取与拉取**
 ```git push pb```
+```git fetch pb```
 error: src refspec main does not match any
 
 所以原因就是github的仓库中没有master这个分支，我们本地的仓库没有main分支，那好办，我们将本地仓库的master分支改名为main分支，它们不就统一了？
