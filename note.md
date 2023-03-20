@@ -98,3 +98,5 @@ error: src refspec main does not match any
 
 **推送到远程仓库**
 ```git push <remote> <branch>```
+
+# 打标签
